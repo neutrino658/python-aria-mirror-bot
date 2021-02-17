@@ -55,7 +55,8 @@
         "description": "Interval of time (in seconds), after which the bot deletes it's message (and command message) which is expected to be viewed instantly. Note: Set to -1 to never automatically delete messages",
         "value": "",
         "required" : false
-      }],
+      }
+		 },    
     "stack": "container",
     "formation": {
       "worker": {
@@ -63,4 +64,4 @@
         "size": "free"
       }
     }
-  }
+}
